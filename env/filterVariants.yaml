@@ -1,0 +1,12 @@
+name: filterVariants
+
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - bioconductor-variantannotation
+  - bioconductor-biomart
+  - r-tidyverse
+  - bioconductor-snpstats
