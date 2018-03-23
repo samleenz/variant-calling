@@ -80,7 +80,7 @@ rule call_variants:
     platypus callVariants --bamFiles {params.lst} --refFile {config[refFasta]} \
     --filterDuplicates 0 --minMapQual 0 --minFlank 0 --maxReadLength 500 \
     --minGoodQualBases 10 --minBaseQual 20 --nCPU={threads} -o {output}
-  #   """
+    """
 
 
 rule prep_reads:
